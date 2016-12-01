@@ -960,7 +960,7 @@
 						// Default behaviour is to jump to the next field, we only want this
 						// if the current field doesn't accept any more entries
 						if (!self.isFull()) {
-							e.preventDefault();
+							// e.preventDefault(); //this prevented expected tab-behavior
 						}
 					}
 					if (self.settings.create && self.createItem()) {
